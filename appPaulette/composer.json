@@ -1,0 +1,21 @@
+{
+    "name": "lacajadefengshuidepaulette/appsubcribers",
+    "description": "App to manage susbscribers and contacts via web",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lacajadefengshuidepaulette\\Appsubcribers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alfonso Carrasco",
+            "email": "ing.alfonso.carrasco@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
